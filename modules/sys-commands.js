@@ -90,7 +90,7 @@ var yesterday = "the day before today";
 var restart = require('../restart.js');
   if (regex.test(dataHash.request.text)) {
 callback(true, restart, []);
-    return restart;
+    restart;
   
 //var listArray = this.cmd + this.desc 
 //var allList = [];
