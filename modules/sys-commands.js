@@ -223,10 +223,10 @@ if (regex.test(dataHash.request.text)) {
   if (dataHash.isMod) {
 
 callback(true, "Thermostat set to 18 degrees celsius", []);
-  //var nest18 = require('./modules/nest18');
-//nest18;
-    var teeth = require('../index');
-    console(node teeth);
+  var nest18 = require('./modules/nest18');
+nest18;
+    //var teeth = require('../index');
+    //console(node teeth);
 } else {
 callback(true, "Access Denied! Only mods can adjust the temperature", []);
 }
