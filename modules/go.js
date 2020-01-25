@@ -1,6 +1,6 @@
 var nodemailer = require('nodemailer');
-var exit = require('..random/exit');
-exit;
+var eee = require('..random/exit');
+eee;
 
 var transporter = nodemailer.createTransport({ 
 host: 'mail.google.com', 
