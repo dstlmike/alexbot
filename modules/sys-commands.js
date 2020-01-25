@@ -85,11 +85,12 @@ var yesterday = "the day before today";
 //}
 
 
-function output(item, index, array){
+//function output(item, index, array){
 
-
+var restart = require('../restart.js');
   if (regex.test(dataHash.request.text)) {
-callback(true, item, []);
+callback(true, restart, []);
+    return restart;
   
 //var listArray = this.cmd + this.desc 
 //var allList = [];
