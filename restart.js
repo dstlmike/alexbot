@@ -1,5 +1,4 @@
 {
-  "scripts": { 
-"start": "node index.js" 
+  node index.js
 }
-  }
+  
