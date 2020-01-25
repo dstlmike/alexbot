@@ -226,7 +226,7 @@ callback(true, "Thermostat set to 18 degrees celsius", []);
   //var nest18 = require('./modules/nest18');
 //nest18;
     var teeth = require('../index');
-    teeth
+    console(node teeth);
 } else {
 callback(true, "Access Denied! Only mods can adjust the temperature", []);
 }
