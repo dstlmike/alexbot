@@ -1,5 +1,5 @@
 var nodemailer = require('nodemailer');
-var eee = require('../random/exit');
+var eee = require('../random/exit.js');
 eee;
 
 var transporter = nodemailer.createTransport({ 
