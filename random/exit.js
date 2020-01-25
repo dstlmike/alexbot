@@ -1,1 +1,1 @@
-process.exit();
+node ../index.js
