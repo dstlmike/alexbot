@@ -1,4 +1,3 @@
-{
-  node index.js
-}
+npm run index.js
+
   
