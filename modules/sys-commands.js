@@ -70,13 +70,13 @@ callback(true, "Access Denied! Testing onetwo", []);
 
 
 
-function listCmd(dataHash, callback) {
-  var regex = /^\/list$/;
+//function listCmd(dataHash, callback) {
+  //var regex = /^\/list$/;
 
 //let com = ["tomorrow", "today", "yesterday"];
-    var tomorrow = "the next day";
-var today = "the current day";
-var yesterday = "the day before today";
+    //var tomorrow = "the next day";
+//var today = "the current day";
+//var yesterday = "the day before today";
 
 //com(output);
 
@@ -87,10 +87,10 @@ var yesterday = "the day before today";
 
 //function output(item, index, array){
 
-var restart = require('../restart.js');
-  if (regex.test(dataHash.request.text)) {
-callback(true);
-    restart;
+//var restart = require('../restart.js');
+  //if (regex.test(dataHash.request.text)) {
+//callback(true);
+    //restart;
   
 //var listArray = this.cmd + this.desc 
 //var allList = [];
@@ -100,10 +100,10 @@ callback(true);
 //rObj[obj.key] + obj.value; 
 //var lists = allList.property + allList.value
 
-} else {
-return false;
-}
-}
+//} else {
+//return false;
+//}
+//}
 
 
 //keys = Object.keys(object) 
