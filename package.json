@@ -22,7 +22,7 @@
     "grunt-contrib-jshint": "^2.1.0",
     "jsinspect": "^0.12.7",
     "lib": "^4.0.5",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.19",
     "mocha": "^6.2.1",
     "moment": "^2.24.0",
     "mongodb": "^2.2.36",
