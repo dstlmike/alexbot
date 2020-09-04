@@ -25,7 +25,7 @@
     "lodash": "^4.17.15",
     "mocha": "^6.2.1",
     "moment": "^2.24.0",
-    "mongodb": "^2.2.36",
+    "mongodb": "^3.1.13",
     "nodemailer": "^6.3.0",
     "nps": "^5.9.8",
     "nps-utils": "^1.7.0",
